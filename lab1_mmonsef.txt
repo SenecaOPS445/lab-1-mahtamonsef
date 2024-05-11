@@ -1,0 +1,33 @@
+test_0 (__main__.lab1a.test_0)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... ok
+test_a (__main__.lab1a.test_a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for errors running: ./lab1a.py ... ok
+test_a1 (__main__.lab1a.test_a1)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for correct shebang line: ./lab1a.py ... ok
+test_b (__main__.lab1a.test_b)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test output for correct output "Hello world": ./lab1a.py ... FAIL
+
+======================================================================
+FAIL: test_b (__main__.lab1a.test_b)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test output for correct output "Hello world": ./lab1a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mmonsef/lab-1-mahtamonsef/./CheckLab1.py", line 90, in test_b
+    self.assertEqual(stdout, expected_output, msg=error_output)
+AssertionError: b'hello world\n' != b'Hello world\n' : output is not correct(HINT: pay attention to uppercase letters, spaces, and symbols)
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.042s
+
+FAILED (failures=1)
+OPS435 Lab Report - System Information for running ./CheckLab1.py
+=================================================================
+    User login name: mmonsef
+    Linux system name: fedora
+    Linux system version: Fedora release 40 (Forty)
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/mmonsef/lab-1-mahtamonsef
+    Start at: Fri May 10 21:59:34 2024
+=================================================================
